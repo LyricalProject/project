@@ -65,4 +65,5 @@ dataset link:   https://drive.google.com/drive/folders/1jsi_B6_-aQjQ-XFLHDxeQw10
 
 ## Functionalities and Features of the project
 
+![LyricalPro-UseCase-UML](https://user-images.githubusercontent.com/55057073/109030730-419c7a00-76ee-11eb-984a-11430246f27c.png)
 
