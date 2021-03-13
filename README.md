@@ -67,3 +67,7 @@ dataset link:   https://drive.google.com/drive/folders/1jsi_B6_-aQjQ-XFLHDxeQw10
 
 ![LyricalPro-UseCase-UML](https://user-images.githubusercontent.com/55057073/109030730-419c7a00-76ee-11eb-984a-11430246f27c.png)
 
+## ER 
+![bvc-1](https://user-images.githubusercontent.com/55057073/111034807-84c25100-8441-11eb-84ce-71bb985d5c45.png)
+
+
