@@ -1,0 +1,720 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.all{
+    background-color: #fbfbfb;
+}
+.header{
+    display: flex;
+width: 100%;
+    height: 12vh;
+    justify-content: space-between;
+    box-shadow: 0 4px 15px rgba(0,0,0,.15);
+     
+    background-color: white;
+}
+
+
+.header > .name_he{
+    background-color: white;
+
+    padding-left:  30px;
+    display: flex;
+    align-items: center;
+  
+    font-size: 30px;
+    
+  }
+  
+
+.header > div{
+  padding-left:  50px;
+  display: flex;
+  align-items: center;
+
+  font-size: 30px;
+}
+
+
+
+
+.name_he_title{
+    margin: 0px;
+    padding: 0;
+    display: flex;
+
+
+
+}
+
+.name_he_title >.q2q2   { 
+    padding: 0 15px;
+    
+    
+    
+
+}
+.q2q2{
+
+    border: 2px  solid #DC143C ;
+    border-radius: 50px ;
+    line-height: 30px;
+    font-size: 20px;
+
+}
+
+.q2q2 a p{
+
+    font-family: 'Raleway', sans-serif;
+}
+
+.name_he_title > a   { 
+    padding: 0 15px;
+    font-size: 80px;
+    line-height: 50px;
+    
+    
+
+}
+
+
+
+.name_he_title > a p  { 
+font-family: Medium;
+    font-size: 16px;}
+
+.name_he >p{
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    
+}
+.nht{
+   color: white;
+    border: 2px  ;
+  border-radius: 13px ;
+}
+.name_he_box,#cars{
+    width: 80px;
+}
+
+
+select{
+    width: 160px;
+    height: 40px;
+    text-overflow: ellipsis;   
+}
+
+
+#cars2{
+    width: 150px;
+}
+.in{
+    background-color: #fbfbfb;;
+}
+.section{
+    background-color: white;
+
+    margin-top: 50px;
+    margin-bottom: 30px;;
+}
+.qqaaz{font-size: 24px;
+    font-family: Regular;
+    border: none;
+    border-radius: 38.5px;
+    -webkit-box-shadow: 0 4px 15px rgba(0,0,0,.15);
+    box-shadow: 0 4px 15px rgba(0,0,0,.15);
+    padding: 15px 300px 15px 50px;
+
+width: 58%;
+
+    text-rendering: auto;
+    color: -internal-light-dark(black, white);
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    appearance: textfield;
+    background-color: -internal-light-dark(rgb(255, 255, 255), rgb(59, 59, 59));
+    -webkit-rtl-ordering: logical;
+    cursor: text;
+    margin: 0em;
+    font: 400 13.3333px Arial;}
+
+    button{
+            padding: 25px 300px 25px 50px;
+
+        cursor: pointer;
+    font-family: Medium;
+    color: #fff;
+    background: linear-gradient(178.39deg,#DC143A -104.96%,#DC143D 184.38%);
+    border-radius: 24px;
+    font-size: 18px;
+    border: none;
+    top: 8px;
+    bottom: 8px;
+    padding: 12px 80px;
+   
+    justify-content: center;
+    right: 65px;
+    }
+    .zz{
+        padding-left: 25px;
+        padding-bottom: 30px;
+        background-color: #fbfbfb;
+    }
+    .menu{
+        padding-top: 25px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 30vh;
+  width: 100%;
+        align-items: center;
+
+
+     
+
+    }
+    .menu > a{
+        width: 15%;
+        
+        margin: 10px;
+
+        background-color: white;
+
+        
+        height: 30vh;
+        border: none;
+        border-radius: 12px;
+        box-shadow: 0 4px 15px rgba(0,0,0,.15);
+
+
+        
+    }
+
+
+
+    i.menu-img-apteki {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        margin-top: 10px;
+        background:url(icon/gp1.svg) no-repeat center;
+        display: inline-block;
+        width:100%;
+        height: 70%;
+        background-size:55% 100%;
+        
+    }
+    i.menu-img-apteki1 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        margin-top: 10px;
+        background:url(icon/gp2.svg) no-repeat center;
+        display: inline-block;
+        width:100%;
+        height: 70%;
+        background-size: 55% 100%;
+        
+    }
+    i.menu-img-apteki2 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        margin-top: 10px;
+        background:url(icon/gp3.svg) no-repeat center;
+        display: inline-block;
+        width:100%;
+        height: 70%;
+        background-size: 55% 100%;
+        
+    }
+    i.menu-img-apteki3 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        margin-top: 10px;
+        background:url(icon/doctor.svg) no-repeat center;
+        display: inline-block;
+        width:100%;
+        margin-left: 20px;
+        height: 70%;
+        background-size: 50% 100%;
+        
+    }
+    i.menu-img-apteki4 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        margin-top: 10px;
+        background:url(icon/medical-kit.svg) no-repeat center;
+        display: inline-block;
+        width:100%;
+        height: 70%;
+        background-size: 50% 100%;
+        
+    }
+    .l>div{
+        width: 100%;
+        height: 20%;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .qqz{
+        color: #DC143A;   
+        font-family: 'Noto Sans JP', sans-serif;
+        letter-spacing: 0.09em;
+    
+    }
+
+.qqz{
+    color: #DC143A;   
+    font-family: 'Noto Sans JP', sans-serif;
+    letter-spacing: 0.09em;
+
+}
+
+.section_a{
+    margin-top:70px ;
+}
+.vop{
+    padding-top: 30px;;
+    padding-left: 25px;
+
+
+}
+
+.asty{
+    display: flex;
+    justify-content: space-between;
+}
+.asty>.suret{
+
+    width: 30%;
+ height: 50vh;
+    padding: 20px;
+
+
+}
+.qq11{
+    width: 100%;
+    height: 100%;
+    
+
+}
+
+.asty >.ququ{
+    width: 50%;
+    line-height: 9vh;
+    padding: 40px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+input#image-button{
+    background:  url('https://i-teka.kz/web/img/main-page/how_to_buy.png') no-repeat top left  ;
+    background-size: 90px 70px;
+    height: 13vh;   
+    background-position-y: center;    
+    width: 100%;
+    padding-left: 120PX;
+    text-align: left;
+    font-size: large;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+    font-size: 23px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 1px 3px 5px rgba(0,0,0,.05);
+border: none;
+margin-bottom: 10px;
+display: block;
+border: none;
+outline:none;
+
+}
+
+input#image-button2{
+    background:  url('https://i-teka.kz/web/img/main-page/delivery.png') no-repeat top left  ;
+    background-size: 90px 70px;
+    height: 13vh;   
+    background-position-y: center;    
+    width: 100%;
+    padding-left: 120PX;
+    text-align: left;
+    font-size: large;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+    font-size: 23px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 1px 3px 5px rgba(0,0,0,.05);
+border: none;
+margin-bottom: 10px;
+display: block;
+border: none;
+outline:none;
+
+}
+
+input#image-button3{
+    
+display: block;
+border: none;
+outline:none;
+
+    background:  url('https://i-teka.kz/web/img/main-page/how_to_quick_find.png') no-repeat top left  ;
+    background-size: 90px 70px;
+    height: 13vh;   
+    background-position-y: center;    
+    width: 100%;
+    padding-left: 120PX;
+    text-align: left;
+    font-size: large;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+    font-size: 23px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 1px 3px 5px rgba(0,0,0,.05);
+border: none;
+margin-bottom: 10px;
+}
+.section_a{
+    background-color: white;
+}
+.vop >h1{
+    font-weight:700;
+    font-weight: bolder;
+
+}
+
+.hare2,.hare22,.hare222{
+    background-color: white;
+    box-shadow: 1px 3px 5px rgba(0,0,0,.05);
+    line-height: 10vh;   
+    width: 100%;
+margin-bottom: 20px;
+
+
+
+}
+.hare2 p,.hare22 p,.hare222 p{
+    font-family: 'Montserrat', sans-serif;
+    line-height: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 20px;
+
+}
+.section_b{
+    width: 100%;
+    height: 85vh;
+background: url('https://www.futurity.org/wp/wp-content/uploads/2017/03/red_blue_pills_1600.jpg') no-repeat;
+background-size: 100% 100%;
+margin-bottom: 10vh;
+}
+.loq1{
+    display: flex;
+}
+.loq1 h5{
+    padding: 50px 20px;
+    font-size: 2em;
+    color:black;
+
+}
+.reklama{
+    height:55vh;
+    
+    display: flex;
+    justify-content: space-around;
+}
+.rekiwi{
+    height: 55vh;
+    width: 
+    30%;
+    background-color: #fff;
+    box-shadow: 1px 3px 5px rgba(0,0,0,.05);
+
+    border-radius: 10px;
+    display: flex;
+  flex-direction: column;
+
+    
+
+
+}
+
+.rekiwi>.soz11{
+    padding:50px 35px;
+    height: 2vh;
+    margin: 5px;
+    font-size: 1em;
+   
+}
+.rekiwi>.soz12{
+    padding-left: 35px;
+    height: 15vh;
+    margin: 5px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 700;
+    font-size: 1.2em;
+   
+}
+
+.rekiwi>.soz13{
+    
+    height: 18vh;
+
+
+    font-family: Medium;
+    color: #fff;
+    border: none;
+    display: flex;
+    align-items: center;
+   
+    justify-content: center;
+}
+.soz13>button{
+    width: 80%;
+    height:45%;
+    box-shadow: 0 4px 20px rgba(113,48,145,.6);
+}
+.news{
+    margin-bottom:40vh;
+}
+.newss{
+    height: 10vh;
+    padding-left: 20px;
+
+}
+.newss h5{
+    font-size: 2.3em;
+    margin: 0 10px;
+
+}
+.phottooss{
+
+    height: 40vh;
+    display: flex;
+    justify-content: space-around;
+    padding-left: 10px;
+
+
+}
+
+
+.phottooss >.ph2{
+   
+    height: 40vh;
+    width: 65%;
+    
+}
+
+
+.phottooss >.ph3{
+   
+    height: 40vh;
+    width: 30.8%;
+    
+}
+
+
+.ph2  >.suu,.ph3 >.suu{
+    width: 100%;
+    height: 100%;
+}
+
+
+.phottooss2{
+    padding-left: 20px;
+
+    height: 40vh;
+    display: flex;
+
+    margin-top: 24px;
+    display: flex;
+    justify-content: space-between;
+
+
+}
+.phottooss2>div{
+    
+
+    height: 40vh;
+    width:31.7%;
+ margin: 0 8px;
+}
+
+.ph23  >.suu{
+    width: 100%;
+    height: 100%;
+}
+
+
+.section_city{
+    background-color: #fbfbfb;
+
+    height: 40vh;
+}
+.pert{
+    height: 10vh;
+padding-left: 20px;
+}.pert h1{
+    font-size: 2.2em;
+    letter-spacing: 1px;
+}
+.goroda{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 20px;
+}
+
+.goroda>div{
+width: 150px;
+margin: 3px;
+line-height: 30px;
+font-size: 17px;
+}
+
+.infoss{
+    background-color: white;
+    height: 40vh;
+    display: flex;
+}
+.infoss>.x1{
+    width: 27%;
+    margin: 5px;
+}
+
+.infoss>.x3{
+    width: 20%;
+    margin: 5px;
+}
+
+.x1{
+    display: flex;
+    flex-direction: column;
+}
+.x1>.bet{
+    padding:30px 20px;
+
+    
+}
+.bet>h1,.bet3>h1{
+    display: flex;
+    font-size: 1.5em;
+    
+}
+.bet2{
+    display: flex;
+    
+    flex-direction: column;
+    align-items: flex-start;
+    
+
+}
+.bet2>div{
+
+    width: 100%;
+    height: 30px;
+    color: black;
+
+}
+.qqqz>a{
+    padding: 30px 20px;
+    font-size: 0.95em;
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
+
+
+
+.x3{
+    display: flex;
+    flex-direction: column;
+}
+.x3>.bet3{
+    padding:30px 20px;
+
+
+    
+}
+.bet3>h5{
+    display: flex;
+    
+}
+.bet4{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
+
+}
+.bet4>div{
+
+    width: 100%;
+    height: 30px;
+    color: black;
+
+}
+.qqqz1>a{
+    padding: 30px 20px;
+    font-size: 0.95em;
+    text-decoration: none;
+    color: black;
+}
+.bet6{
+    display: flex;
+    padding-left: 18px;
+    
+}
+.bet6>.qqqz12{
+    width: 50px;
+    height: 6vh;
+}
+.qqqz12>img{
+    width: 100%;
+    height: 100%;
+    
+}
+.footer{
+    background-color: #292929;
+    line-height: 15vh;
+
+}
+.ff{
+    padding-left: 18px;
+    display: flex;
+    font-size: 18px;
+    vertical-align: middle;
+    color: white;
+}*{
+    font-family: 'Montserrat', sans-serif;
+}
