@@ -1,0 +1,106 @@
+.ham{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+    background-color: #Dc143c;
+    height: 100%;
+}
+*{
+    padding: 0;
+    margin: 0;
+    background-color: #Dc143c;
+
+}
+.lol{
+    width: 22%;
+    height: 60vh  ;
+    margin-left:6% ;
+    margin-top: 6%;
+    flex-direction: column;
+    display: flex;
+    border-radius: 8%;
+    align-items: center;
+    background-color: white;
+}
+
+.lol>.icon_x{
+    display: flex;
+    height: 8%;
+    background-color: white;
+    position: relative;
+    width: 91%;
+    margin-top: 4%;
+}
+
+.icon_x>.x{
+    position: absolute;
+    right: 0;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    height: 100%;
+}
+.x>img{
+    cursor: pointer;
+    width: 60%;
+    height: 60%;    background-color: white;
+
+}
+
+.lol>.menu{
+    height: 86%;
+    width: 96%;
+    margin-top:0%;
+    display: flex;
+    background-color: white;
+
+    text-align: center;
+}
+.menu>.k1{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: white;
+}
+
+
+.k1>.k11{
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    color: gray;
+    background-color: white;
+
+    align-items: center;
+    font-size: 1.1em;
+    text-align: center;
+    height: 14.2857143%;
+}.menu>.k2{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: white;
+}
+.k2>.k11{
+    width: 100%;
+    display: flex;
+    justify-content: left;
+
+    align-items: center;
+    font-size: 0.95em;
+    text-align: center;
+    height: 14.2857143%;
+    background-color: white;
+}
