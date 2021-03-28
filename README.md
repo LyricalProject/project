@@ -69,5 +69,6 @@ dataset link:   https://drive.google.com/drive/folders/1jsi_B6_-aQjQ-XFLHDxeQw10
 
 ## User-interface implementation and connection
 
+UI implementation and connection in UI repository  [UI](https://github.com/LyricalProject/project/tree/main/UI)
 
 
