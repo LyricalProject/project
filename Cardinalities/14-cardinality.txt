@@ -1,0 +1,1 @@
+SELECT count(*) FROM table_reg where apteki_p_id1

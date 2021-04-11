@@ -1,0 +1,3 @@
+SELECT count(*) FROM kayrimdilik                                            
+
+SELECT count(*) FROM table_reg        

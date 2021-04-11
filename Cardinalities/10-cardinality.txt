@@ -1,0 +1,8 @@
+SELECT count(*) FROM iteka_analyzes,iteka_doctors_user,iteka_diagnos,kayrimdilik
+Where emaill=p1      
+                                     
+    
+
+(iteka_analyzes ⋈ iteka_analyzes) ⋈ iteka_diagnos
+ (iteka_doctors_user  ⋈ iteka_diagnos)  ⋈ iteka_analyzes
+ (iteka_analyzes  ⋈ iteka_diagnos)  ⋈ iteka_doctors_user

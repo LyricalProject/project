@@ -1,0 +1,9 @@
+12-query
+
+
+SELECT count(*) FROM apteki2,kayrimdilik,lekarstva
+
+(apteki2 ⋈ kayrimdilik) ⋈ lekarstva
+ (kayrimdilik  ⋈ lekarstva)  ⋈ apteki2
+ (apteki2  ⋈ lekarstva)  ⋈ kayrimdilik
+
