@@ -1,0 +1,73 @@
+14.
+
+ 
+DECLARE   
+    TYPE c_names_type IS TABLE OF
+    TABLE_REG.APTEKI%TYPE                 
+        INDEX BY BINARY_INTEGER;   
+    c_names c_names_type;   
+    counter integer :=0; 
+    CURSOR country_curs IS     
+        SELECT APTEKI FROM TABLE_REG ;
+BEGIN   
+ 
+    FOR n IN country_curs LOOP 
+        counter := counter +1; 
+        c_names(counter) := n.APTEKI; 
+    END LOOP; 
+    
+    DBMS_OUTPUT.PUT_LINE(' ' || c_names.COUNT);
+END;
+Average = (0.04+0.054+0.044+0.037+0.04)/5 = 43ms
+
+---------------------------------------------------------------
+
+create or replace PACKAGE good_job AS 
+ 
+    PROCEDURE auistyru ( p_id1  table_reg.apteki%TYpe);
+   -- Adds a customer 
+ 
+ 
+   -- Removes a customer 
+ 
+ 
+END good_job; 
+create or replace PACKAGE BODY good_job AS 
+    PROCEDURE auistyru ( p_id1  table_reg.apteki%TYpe)
+   IS 
+   BEGIN 
+ 
+    INSERT INTO APTEKI2 (APTEKI, Apteka_number, Apteka_number_url,apteka_address)
+    SELECT APTEKI, Apteka_number, Apteka_number_url,apteka_address
+    FROm table_reg
+ 
+    where APTEKI=p_id1;
+    END auistyru;
+ 
+ 
+END good_job; 
+Average = (0.04+0.043+0.08+0.052+0.055)/5 = 54ms
+
+---------------------------------------------------------------
+
+create or replace PACKAGE good_job3 AS 
+ 
+    PROCEDURE oshiru99 ( p_id1  table_reg.apteki%TYpe);
+   -- Adds a customer 
+ 
+ 
+   -- Removes a customer 
+ 
+ 
+END good_job3; 
+ 
+create or replace PACKAGE BODY good_job3 AS 
+    PROCEDURE oshiru99 ( p_id1  table_reg.apteki%TYpe)
+   IS 
+   BEGIN 
+     DELETE FROM Table_reg WHERE apteki = p_id1;
+    END oshiru99;
+ 
+ 
+END good_job3; 
+Average = (0.047+0.043+0.051+0.054+0.039)/5 = 46.8ms

@@ -1,0 +1,24 @@
+8.
+SELECT * FROM APTEKI2   --- apteki2
+SELECT * FROM APTEKI2 WHERE lower(APTEKI) like  lower('%$p1%' )
+ 
+!!--- Table registration  for new medical centres
+ 
+DECLARE   
+    TYPE c_names_type IS TABLE OF
+    TABLE_REG.APTEKI%TYPE                 
+        INDEX BY BINARY_INTEGER;   
+    c_names c_names_type;   
+    counter integer :=0; 
+    CURSOR country_curs IS     
+        SELECT APTEKI FROM TABLE_REG ;
+BEGIN   
+ 
+    FOR n IN country_curs LOOP 
+        counter := counter +1; 
+        c_names(counter) := n.APTEKI; 
+    END LOOP; 
+    
+    DBMS_OUTPUT.PUT_LINE(' ' || c_names.COUNT);
+END;
+Average = (0.0827+0.059+0.057+0.06+0.04)/5 = 59.74ms 

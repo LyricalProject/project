@@ -1,0 +1,24 @@
+12.
+
+SELECT * FROM APTEKI2   --- apteki2
+Average = (0,003+0,005+0,006+0,003+0,007)/5 = 4.8ms
+
+SELECT * FROM APTEKI2 WHERE lower(APTEKI) like  lower('%$p1%' )
+Average = (0.003+0.005+0.006+0.003+0.004)/5= 4.2ms
+
+
+
+SELECT * FROM KAYRIMDILIK  -----bespl dary
+Average = (0.005+0.003+0.006+0.003+0.004)/5 = 4.2ms
+
+SELECT * FROM KAYRIMDILIK WHERE lower(NAME_K) like  lower('%$p1%' )
+Average = (0.002+0.002+0.003+0.005+0.004)/5 = 3.2ms
+
+
+
+
+SELECT * FROM LEKARSTVA2  WHERE lower(MEDICINE_NAME) like  lower('$p1%' )
+Average = (0.063+0.005+0.004+0.004+0.003)/5 = 15.8ms
+
+SELECT * FROM LEKARSTVA
+Average = ( 0.059+0.004+0.004+0.004+0.005)/5 =15.2ms
